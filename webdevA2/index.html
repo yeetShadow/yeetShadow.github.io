@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>Learning about EM waves</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>About Electromagnetic Spectrum</h1>
+    
+    <nav> <!--menu system-->
+        <button id="hamIcon">Open Menu</button>
+        <ul>
+            <li><button id="page1btn">The different EM waves in life</button></li>
+            <li><button id="page2btn">The dangers of some EM waves</button></li>
+            <li><button id="page3btn">Game</button></li>
+        </ul>
+    </nav>
+    <img src="images/qrcode_yeetshadow.github.io.png" alt="qr code for mobile">
+    <main id="pagecontainer">
+        <section class="page" id="page1">
+            <h2 id="pg1title">An intro to EM waves</h2>
+            <div id="pg1photo">
+                <img src="images/Em.jpg" class="photo" alt="http://labman.phys.utk.edu/phys222core/modules/m6/The%20EM%20spectrum.html">
+            </div>
+            <article id="pg1info">
+                <h3 class="pg1content">Electromagnetic waves and their usage in life</h3>
+                <div class="waves" id="radiowaves">
+                    Radiowave
+                    <p>Radiowaves can be used for communication</p>
+                    <p>One example can be our phones when texting</p>
+                    <p>another could also be radios themselves</p>
+                    <img src="images/phone.jpg" class="photo" alt="from https://www.theverge.com/22163811/best-phone">
+                </div>
+                <div class="waves" id="microwave">
+                    Microwave
+                    <p>Microwaves are well...used for microwaves</p>
+                    <img src="images/microwave.jpg" class="photo"
+                        alt="from https://www.ikea.com/sg/en/p/tillreda-microwave-oven-white-80493362">
+                </div>
+                <div class="waves" id="infrared">
+                    Infra-red Radiation
+                    <p>Remote controls use infra-red waves to turn on the tv</p>
+                    <img src="images/remote.jpg" class="photo"
+                        alt="from https://www.ucl.ac.uk/culture-online/case-studies/2022/sep/how-does-remote-control-work-tv">
+                </div>
+                <div class="waves" id="light">
+                    Visible Light
+                    <p>And light...let's us see</p> 
+                    <img src="images/light.jpg" class="photo" alt="from https://www.britannica.com/science/light">
+                </div>
+                <div class="waves" id="ultraviolet">
+                    Ultraviolet Radiation
+                    <p>Ultraviolet is used for water treatment</p>
+                    <p>The sun also radiates UV waves</p>
+                    <img src="images/UV-process.png" class="photo"
+                        alt="from https://www.pub.gov.sg/Public/WaterLoop/OurWaterStory/NEWater">
+                </div>
+                <div class="waves" id="xray">
+                    X-Ray
+                    <p>X-ray is used for scanning baggages for illegal items</p>
+                    <P>It can also be used for medical scanning</P>
+                    <img src="images/X-Ray-checkpoint.jpg" class="photo"
+                        alt="from https://www.certisgroup.com/news-insights/insights/id/139/better-with-certis-keeping-our-borders-safe">
+                </div>
+                <div class="pg1last" id="gammaray">
+                    Gamma Ray
+                    <p>And lastly, Gamma Rays are used for sterilizing medical equipments</p>
+                    <p>It is also used for cancer treament</p>
+                    <img src="images/gamma-sterilize.png" class="photo" alt="from https://infrahealthcare.it/en/sterilization-eto-and-gamma">
+                </div>
+            </article>
+        </section>
+        <section class="page" id="page2">
+            <h4>MCQ Quiz</h4>
+            <fieldset>
+                <legend>1. What is the usage of gamma rays?</legend>
+                <input type="radio" name="q1" value="X-ray"> X-ray
+                <input type="radio" name="q1" value="Infra-red remote"> Remote
+                <input type="radio" name="q1" value="See"> See
+                <input type="radio" name="q1" value="Sterilizing medical equipments"> Sterilization
+            </fieldset>
+            <fieldset>
+                <legend>2. Which of these uses microwaves?</legend>
+                <input type="radio" name="q2" value="Microwave"> Microwave
+                <input type="radio" name="q2" value="Radio"> Radio
+                <input type="radio" name="q2" value="UV treatment of water"> UV treatment
+                <input type="radio" name="q2" value="Satellites"> Satellites
+            </fieldset>
+            <button id="btnSubmit">Submit Quiz</button>
+            <h5 id="scorebox">Not submitted</h5>
+        </section>
+        <section class="gamepage" id="page3">
+            <h6 class="game">Game i guess</h6>
+            <p class="game">Bacteria killer</p>
+            <p class="game">Click the contained bacteria to kill it with UV light</p>
+            <p class="game" id="scoreBox"></p>
+            <img id="Bacteriaid" src="images/bacteria.jpg" alt="bacteria image">
+        </section>
+
+    </main>
+</body>
+
+</html>

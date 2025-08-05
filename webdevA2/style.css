@@ -1,0 +1,159 @@
+.page{width:100%;height:2500px;border:1px solid red}
+.gamepage{width:100%;height:1000px;border:1px solid red}
+.waves{
+    width:48%;
+    height:40px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    background-color: blanchedalmond;
+    border:2px solid black ;
+    display:inline-block;
+    text-align: center;
+    font-size: 25px;
+
+}
+.pg1last{
+    width:97.5%;
+    height:40px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    background-color: blanchedalmond;
+    border:2px solid black ;
+    display:inline-block;
+    text-align: center;
+    font-size: 25px;
+}
+
+.game{
+    color: yellow;
+    font-size: 30px;
+}
+nav ul li{display:inline;}
+#page1{background:blueviolet}
+#page2{background:lightcoral}
+#page3{background:rgb(192, 63, 192)}
+
+/*CSS for responsive menu*/
+#hamIcon{display:none;}
+
+
+@media (max-width:800px){
+/*make a menu items vertical*/
+nav ul li{display:block;}
+/* unhide menu icon */
+#hamIcon{display:block;}
+/*hide the menu item list*/
+nav ul{display:none;}
+
+.page{width:100%;height:4000px;border:1px solid red}
+
+.pg1last{
+    width:95%;
+    height:40px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    background-color: blanchedalmond;
+    border:2px solid black ;
+    display:inline-block;
+    text-align: center;
+    font-size: 25px;
+}
+
+.waves{
+    width:95%;
+    height:40px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+    background-color: blanchedalmond;
+    border:2px solid black ;
+    display:inline-block;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.photo{
+    border:2px solid black;
+    max-width:50%;
+    display: inline-block;
+    background-color: lightblue;
+}
+
+}
+/*to unhide menu items*/
+.menuShow{display:block;}
+
+
+#pg1title{
+    border:2px solid black;
+    padding: 2px;
+    background-color: yellow;
+}
+
+#pg1photo{
+    border:2px solid black;
+    width:98%;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: lightblue;
+}
+
+#pg1info{
+    border:2px solid black;
+    width:98%;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: lightblue;
+}
+
+.pg1content{
+    border:2px solid black;
+    width:99%;
+    vertical-align: top;
+    text-align: center;
+    background-color: yellow;
+    margin-top: 10px;
+    margin-left:2px;
+    font-size: 30px;
+}
+
+
+
+h6{
+    font-size: 30px;
+}
+
+h7{
+    font-size: 20px;
+}
+
+h8{
+    font-size: 25px;
+}
+
+#Bacteriaid {position: relative;width:10vw;
+transition: all 0.5s;
+}
+#Bacteriaid.shrink{width:5vw;opacity: 0;}
+
+
+@keyframes bacteriaFrames {
+    0% {
+        rotate: 0deg
+    }
+
+    25% {
+        rotate: 90deg
+    }
+
+    50% {
+        rotate: 180deg
+    }
+
+    100% {
+        rotate: 270deg
+    }
+}
+#Bacteriaid.rotAnim{animation: bacteriaFrames 60s;}
+
